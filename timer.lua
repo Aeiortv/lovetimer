@@ -18,6 +18,8 @@ function timer.update(name, dt)
     if not cTimer.finished and not cTimer.repetition then
       cTimer.finished = true
       return true
+    else
+      return false
     end
   end
 end
